@@ -11,7 +11,7 @@ int main(void)
 void ft_print_reverce_alphabet(void)
 {
     char letter = 'z';
-    while (letter <= 'a')
+    while (letter >= 'a')
     {
         write(1, &letter, 1);
         letter--;
