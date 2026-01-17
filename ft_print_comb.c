@@ -2,17 +2,19 @@
 
 void ft_print_comb (void);
 
+void ft_putchar(char c);
+
+
+int main (void)
+{
+    ft_print_comb();
+}
+
 void ft_putchar(char c)
 {
     write(1 ,&c ,1);
 }
 
-
-
-int main (void)
-{
-
-}
 
 void ft_print_comb (void)
 {
